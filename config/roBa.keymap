@@ -68,8 +68,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E             &kp R                          &kp T                                                                 &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A             &kp S         &kp D             &lt 5 F                        &kp G        &kp LS(LG(S))                   &kp MINUS                &kp H        &kp J  &kp K      &kp L      &mt RIGHT_COMMAND SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                          &kp B        &kp TAB                         &mt RIGHT_ALT SEMICOLON  &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt RIGHT_CONTROL SLASH
+&kp A             &kp S         &kp D             &lt 5 F                        &kp G        &kp LS(LG(S))                   &kp MINUS                &kp H        &kp J  &lt 5 K    &kp L      &mt RIGHT_COMMAND SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V                          &kp B        &mt RIGHT_SHIFT TAB             &mt RIGHT_ALT SEMICOLON  &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt RIGHT_CONTROL SLASH
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt_to_layer_0 6 LS(LC(SEMI))  &lt 2 SPACE  &lt_to_layer_0 3 LS(LC(J))      &kp BACKSPACE            &lt 1 ENTER                               &kp DEL
             >;
 
@@ -89,10 +89,10 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE      &trans         &trans            &trans            &trans                              &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp GRAVE       &kp LESS_THAN  &kp LEFT_COMMAND  &kp GREATER_THAN  &trans  &trans      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&kp LEFT_SHIFT  &trans         &trans            &trans            &trans  &trans      &kp COLON       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans          &trans         &trans            &trans            &trans  &trans      &kp COMMA       &kp PERIOD                                                                 &kp PIPE
+&kp ESCAPE        &trans         &trans            &trans            &trans                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp GRAVE         &kp LESS_THAN  &trans            &kp GREATER_THAN  &trans  &trans      &kp UNDERSCORE       &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &mt RIGHT_COMMAND PERCENT
+&kp LEFT_SHIFT    &trans         &trans            &trans            &trans  &trans      &mt RIGHT_ALT COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &mt RIGHT_CONTROL BACKSLASH
+&kp LEFT_CONTROL  &kp LEFT_ALT   &kp LEFT_COMMAND  &trans            &trans  &trans      &kp COMMA            &kp PERIOD                                                                 &kp PIPE
             >;
         };
 
